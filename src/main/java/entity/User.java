@@ -2,16 +2,22 @@ package com.example.demo.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name='User')
+@Table(name='users')
 public class User{
     @Id
-    private long id;
+    @Generatedvalue(strategy=GenerationType.IDENTITY)
+    private Long id;
 
     private String name;
 
-    @Coloumn(unique=true)
-    private Stringemail;
+    @Column(unique=true)
+    private String email;
 
-    private Stringpassword;
-    
+    private String password;
+
+    private String role;
+
+    public 
+
+
 }
