@@ -49,7 +49,7 @@ public Double getFuelEfficiency(){
     return fuelEfficiency;
 }
 public void setFuelEfficiency(Double fuelEfficiency){
-    this.fuelEfficiency=id;
+    this.fuelEfficiency=fuelEfficiency;
 }
 
 }
