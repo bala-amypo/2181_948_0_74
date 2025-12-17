@@ -32,24 +32,24 @@ public void setUser(User user){
 }
 
 public String getVehicleNumber(){
-    return id;
+    return vechicleNumber;
 }
-public void setId(Long id){
-    this.id=id;
-}
-
-public Long getId(){
-    return id;
-}
-public void setId(Long id){
-    this.id=id;
+public void setVehicleNumber(String vechicleNumber){
+    this.vechicleNumber=vechicleNumber;
 }
 
-public Long getId(){
-    return id;
+public Double getCapacityKg(){
+    return capacityKg;
 }
-public void setId(Long id){
-    this.id=id;
+public void setCapacityKg(Double capacityKg){
+    this.capacityKg=capacityKg;
+}
+
+public Double getFuelEfficiency(){
+    return fuelEfficiency;
+}
+public void setFuelEfficiency(Double fuelEfficiency){
+    this.fuelEfficiency=id;
 }
 
 }
