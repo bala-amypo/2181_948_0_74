@@ -44,18 +44,18 @@ public class User{
     public String getPassword(){
         return password;
     }
-    public void setId(Long ID){
+    public void setId(String pssword){
         this.password=password;
 
 
     }
     
       
-    public String (){
-        return password;
+    public String getRole(){
+        return role;
     }
-    public void setId(Long ID){
-        this.password=password;
+    public void setId(String role){
+        this.role=role;
 
 
     }
